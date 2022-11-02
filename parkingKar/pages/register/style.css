@@ -1,0 +1,161 @@
+@font-face {
+    font-family: Inter;
+    src: url(../../assets/fonts/Inter-Bold.ttf)
+  }
+
+  @font-face {
+    font-family: Inter-extraBold;
+    src: url(../../assets/fonts/Inter-ExtraBold.ttf)
+  }
+
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+    background-image: url(../../assets/images/ESTACIONE.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-color: rgba(0, 0, 0,0.75);
+    background-blend-mode: overlay;
+
+    
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    width: 294px;
+    height: 90px;
+    left: 40%;
+    top: 10%;
+    background: #F2F2F2;
+    border-radius: 20px;
+    opacity: 0.8;
+
+}
+
+.title span{
+    display: flex;
+    margin-top: 8px;    
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    color: black;
+}
+
+
+.container-main{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    position: relative;
+    margin-top: 10%;
+    margin-left: 270px;  
+
+    
+}
+
+
+.container-input{
+    display: flex;
+    flex-direction: column;
+    width: 720px;
+    height: 98px;
+    margin-top: 30px;
+    
+    
+}
+
+.container-input input{
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    width: 451px;
+    height: 90px;
+    font-size: 24px;
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+
+.title-input{
+    margin-bottom: 10px;
+ font-size: 25px;
+ font-family: 'Inter-extraBold';
+color: #fff;
+}
+
+.btn-register {
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+}
+
+.btn-register button{
+    display: flex;
+    margin-top: 62px;
+    border: none;
+    font-style: normal;
+    font-weight: 900;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    width: 380px;
+    height: 60px;
+    font-size: 25px;
+    background: #208a30;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.btn-register button:hover{
+    background-color: #37B34A;
+    transition: 0.4s ease-in-out;
+}
+
+.button-back{
+    display: flex;
+    margin-left: 30px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.btn-cancel{
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+}
+
+.btn-cancel button{
+    display: flex;
+    margin-top: 62px;
+    border: none;
+    font-style: normal;
+    font-weight: 900;
+    color: #000;
+    align-items: center;
+    justify-content: center;
+    width: 380px;
+    height: 60px;
+    font-size: 25px;
+    background-color:#acaaaa ;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.btn-cancel button:hover{
+    background-color:  #d3d0d0;
+    transition: 0.4s ease-in-out;
+}
+
+.container-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
